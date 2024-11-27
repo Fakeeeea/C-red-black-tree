@@ -1,2 +1,8 @@
 # C-red-black-tree
-My attempt of an implementaton of a Red-Black tree in C. I do not advise anyone to go through the code, it feels like it works, but i am not sure. In case leave a comment
+This is my attempt at implementing a Red-Black tree in C.
+The sole purpose of this project was for me to expand my DSA knowledge, while having some "fun" in C.
+
+#i advise to not learn from this code
+
+if you find anything wrong, let me know!
+I am not even sure it fully works!
