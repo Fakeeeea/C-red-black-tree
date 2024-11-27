@@ -140,7 +140,6 @@ void fixInsertion(Node** root, Node* tofix)
 
     if(uncle != NULL && uncle->color == RED)
     {
-        printf("r\n");
         uncle->color = BLACK;
         tofix->parent->color = BLACK;
         tofix->parent->parent->color = RED;
@@ -230,9 +229,9 @@ int deleteNode(Node** root, int valueToDelete)
     return 1;
 }
 
+//I am sorry to anyone who will have to go through this section of code
 void deleteSpecificNode(Node**root, Node* toDelete)
 {
-    //code flow
     Node *inOrder;
 
     //simple case: both children
@@ -300,9 +299,9 @@ void deleteSpecificNode(Node**root, Node* toDelete)
     }
 }
 
+//and also this section
 void fixDeletion(Node** root, Node* tofix)
 {
-    //to rewrite? unbalanced?
     int location;
     Node * parent = tofix->parent;
     Node * sibling = NULL;
